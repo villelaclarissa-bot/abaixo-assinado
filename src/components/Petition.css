@@ -1,24 +1,31 @@
 .petition {
   min-height: 100vh;
-  background: #f8f9fa;
+  background: #e8f5e9;
 }
 
 .petition-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #004231 0%, #006b4f 100%);
+  color: #e0f2e9;
   text-align: center;
   padding: 4rem 2rem;
 }
 
 .petition-header h1 {
   font-size: 2.5rem;
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 1.5rem 0;
+  color: #ffffff;
 }
 
-.petition-header p {
+.petition-text {
   font-size: 1.2rem;
-  opacity: 0.9;
-  margin: 0;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #c8e6c9;
+}
+
+.petition-text strong {
+  color: #ffffff;
 }
 
 .petition-main {
@@ -32,13 +39,13 @@
 .petition-list-section h2 {
   text-align: center;
   font-size: 2rem;
-  color: #333;
+  color: #004231;
   margin-bottom: 2rem;
 }
 
 .petition-footer {
-  background: #333;
-  color: white;
+  background: #004231;
+  color: #c8e6c9;
   text-align: center;
   padding: 2rem;
 }
@@ -52,7 +59,7 @@
     font-size: 1.75rem;
   }
 
-  .petition-header p {
+  .petition-text {
     font-size: 1rem;
   }
 }

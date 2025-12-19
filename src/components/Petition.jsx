@@ -14,7 +14,13 @@ function Petition() {
     <div className="petition">
       <header className="petition-header">
         <h1>Abaixo-Assinado</h1>
-        <p>Adicione sua assinatura para apoiar nossa causa</p>
+        <p className="petition-text">
+          Nós, abaixo assinados, solicitamos a alteração do formato de trabalho do colega
+          <strong> Caique Neves </strong> para atuação presencial de segunda a quinta-feira
+          no escritório do Jardim Botânico, considerando seu suporte recorrente ao time de
+          Excelência Operacional, que o reconhece como parte do time, apesar de se intitular
+          "Team Data Nation".
+        </p>
       </header>
 
       <main className="petition-main">

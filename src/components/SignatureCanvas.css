@@ -15,11 +15,11 @@
 }
 
 .signature-canvas:hover {
-  border-color: #6366f1;
+  border-color: #004231;
 }
 
 .signature-hint {
-  color: #666;
+  color: #004231;
   font-size: 0.875rem;
   margin: 0;
 }
